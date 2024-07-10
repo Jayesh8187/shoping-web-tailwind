@@ -14,22 +14,7 @@
     <link rel="stylesheet" href="./assets/css/TAILWIND/tailwind-all.min.css" />
   </head>
   <body>
-    <header class="">
-      <!-- <div class="2xl:container 2xl:mx-auto">
-            <div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                </ul>
-            </div>
-            <div>
-                <img src="./assets/img/Logo.png" alt="">
-            </div>
-            <div>
-                <img src="./assets/img/icons/cart.png" alt="">
-                <button>Contact Support</button>
-            </div>
-        </div> -->
+    <header>
       <div
         class="h-16 bg-black text-white items-center justify-center gap-5 flex"
       >
@@ -37,7 +22,7 @@
         ><img src="./assets/img/icons/arrow.png" alt="" />
       </div>
 
-      <div class="xl:container xl:mx-auto mb-20">
+      <div class="container mx-auto mb-20">
         <nav class="h-16 flex items-center justify-between">
           <ul class="flex gap-4">
             <button class="primary-button">Home</button>
@@ -54,25 +39,27 @@
       </div>
     </header>
 
-    <section class="hero-section mb-20">
-      <div class="xl:container xl:mx-auto">
+    <section class="hero-section py-20">
+      <div class="container mx-auto">
         <div class="flex gap-5">
           <div class="w-3/5">
-            <p class=" uppercase [font-size:45px]">
-              Elevate Your Style with <br>
+            <h1 class="uppercase [font-size:45px]">
+              Elevate Your Style with <br />
               Klothink
-            </p>
+            </h1>
             <p class="mt-2">
               Explore a world of fashion at Klothink, where trends meet
               affordability. Immerse yourself in the latest styles and seize
               exclusive promotions.
             </p>
             <div class="flex gap-5 mt-10 mb-10">
-              <button class="yellow-button"><img src="./assets/img/icons/shop-now.png" alt=""> Shop Now</button>
+              <button class="yellow-button">
+                <img src="./assets/img/icons/shop-now.png" alt="" />Shop Now
+              </button>
               <button class="primary-button">Contact Us</button>
             </div>
 
-            <img src="./assets/img/hero-img-1.png" alt="">
+            <img src="./assets/img/hero-img-1.png" alt="" />
           </div>
           <div class="w-2/5">
             <img src="./assets/img/hero-img-2.png" alt="" />
@@ -81,61 +68,394 @@
       </div>
     </section>
 
-    <section>
-        <div class="xl:container xl:mx-auto">
-            <div class="flex gap-5 justify-between items-center mb-5">
-                <div class="w-3/5 ">
-                    <h3 class="[font-size:60px] uppercase mb-3">Discover Fashion.</h3>
-                    <p>Dive into a world of fashion innovation at Klothink. Our carefully curated collections bring together the latest trends and timeless classics, ensuring you find the perfect pieces for every occasion.</p>
-                </div>
-                <div class="w2/5">
-                    <button class="yellow-button">View All Products</button>
-                </div>
-            </div>
-
-            <div class="flex items-center justify-between h-28">
-                <div>
-                    <ul class="uppercase flex gap-4">
-                        <li><a href="">all</a></li>
-                        <li><a href="" class="font-black">menswear</a></li>
-                        <li><a href="">womenswear</a></li>
-                        <li><a href="">kidswear</a></li>
-                    </ul>
-                </div>
-                <div class="flex gap-4">
-                    <button class="black-button">Casual</button>
-                    <button class="primary-button">Formal</button>
-                    <button class="primary-button">Party</button>
-                </div>
-            </div>
-
-            <div class="flex justify-between items-center gap-4 mb-12">
-                <div>
-                    <img src="./assets/img/mens-denim-1.png" alt="">
-                    <p class="font-bold mt-6">Classic Denim Jeans</p>
-                    <p>$49.99</p>
-                </div>
-                <div>
-                    <img src="./assets/img/mens-jaket.png" alt="">
-                    <p class="font-bold mt-6">Classic Denim Jeans</p>
-                    <p>$49.99</p>
-                </div>
-                <div>
-                    <img src="./assets/img/mens-t-shirt.png" alt="">
-                    <p class="font-bold mt-6">Classic Denim Jeans</p>
-                    <p>$49.99</p>
-                </div>
-                <div>
-                    <img src="./assets/img/mens-denims-2.png" alt="">
-                    <p class="font-bold mt-6">Classic Denim Jeans</p>
-                    <p>$49.99</p>
-                </div>
-            </div>
-
-            <div>
-                
-            </div>
+    <section class="py-20">
+      <div class="container mx-auto">
+        <div class="flex gap-5 justify-between items-center mb-5">
+          <div class="w-3/5">
+            <h3 class="[font-size:60px] uppercase mb-3">Discover Fashion.</h3>
+            <p>
+              Dive into a world of fashion innovation at Klothink. Our carefully
+              curated collections bring together the latest trends and timeless
+              classics, ensuring you find the perfect pieces for every occasion.
+            </p>
+          </div>
+          <div class="w2/5">
+            <button class="yellow-button">View All Products</button>
+          </div>
         </div>
+
+        <div class="flex items-center justify-between h-28">
+          <div>
+            <ul class="uppercase flex gap-4">
+              <li><a href="">all</a></li>
+              <li><a href="" class="font-black">menswear</a></li>
+              <li><a href="">womenswear</a></li>
+              <li><a href="">kidswear</a></li>
+            </ul>
+          </div>
+          <div class="flex gap-4">
+            <button class="black-button">Casual</button>
+            <button class="primary-button">Formal</button>
+            <button class="primary-button">Party</button>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-between items-center mb-12">
+          <div>
+            <img src="./assets/img/mens-denim-1.png" alt="" />
+            <p class="font-bold mt-6">Classic Denim Jeans</p>
+            <p>$49.99</p>
+          </div>
+          <div>
+            <img src="./assets/img/mens-jaket.png" alt="" />
+            <p class="font-bold mt-6">Classic Denim Jeans</p>
+            <p>$49.99</p>
+          </div>
+          <div>
+            <img src="./assets/img/mens-t-shirt.png" alt="" />
+            <p class="font-bold mt-6">Classic Denim Jeans</p>
+            <p>$49.99</p>
+          </div>
+          <div>
+            <img src="./assets/img/mens-denims-2.png" alt="" />
+            <p class="font-bold mt-6">Classic Denim Jeans</p>
+            <p>$49.99</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center">
+          <img src="./assets/img/Scroller.png" alt="" />
+          <div>
+            <button>
+              <img src="./assets/img/Left Arrow Button.png" alt="" />
+            </button>
+            <button>
+              <img src="./assets/img/Right Arrow Button.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="container mx-auto">
+        <h3 class="[font-size:60px] uppercase mb-3">
+          The Klothink Experience.
+        </h3>
+        <p class="pb-8">
+          At Klothink, we breathe life into fashion, blending creativity with
+          commitment. Our journey is fueled by a dedication to delivering
+          unparalleled style and <br />
+          quality. Join us in redefining fashion and embracing a community where
+          every purchase tells a story.
+        </p>
+        <div class="bg-gray-100 px-10 mt-20 py-5 [border-radius:20px]">
+          <div class="flex flex-wrap justify-between items-center py-12">
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-4">
+                <button class="yellow-button">
+                  <img
+                    src="./assets/img/Star 5 (Stroke).png"
+                    width="20px"
+                    alt=""
+                  />
+                </button>
+                <p class="font-bold">Passionate Craftsmanship</p>
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-4">
+                <button class="yellow-button">
+                  <img
+                    src="./assets/img/Star 5 (Stroke).png"
+                    width="20px"
+                    alt=""
+                  />
+                </button>
+                <p class="font-bold">Passionate Craftsmanship</p>
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-4">
+                <button class="yellow-button">
+                  <img
+                    src="./assets/img/Star 5 (Stroke).png"
+                    width="20px"
+                    alt=""
+                  />
+                </button>
+                <p class="font-bold">Passionate Craftsmanship</p>
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-between items-center pb-12">
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-4">
+                <button class="yellow-button">
+                  <img
+                    src="./assets/img/Star 5 (Stroke).png"
+                    width="20px"
+                    alt=""
+                  />
+                </button>
+                <p class="font-bold">Passionate Craftsmanship</p>
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-4">
+                <button class="yellow-button">
+                  <img
+                    src="./assets/img/Star 5 (Stroke).png"
+                    width="20px"
+                    alt=""
+                  />
+                </button>
+                <p class="font-bold">Passionate Craftsmanship</p>
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-4">
+                <button class="yellow-button">
+                  <img
+                    src="./assets/img/Star 5 (Stroke).png"
+                    width="20px"
+                    alt=""
+                  />
+                </button>
+                <p class="font-bold">Passionate Craftsmanship</p>
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="container mx-auto">
+        <div class="flex gap-5 justify-between items-center mb-5">
+          <div class="w-3/5">
+            <h3 class="[font-size:60px] uppercase mb-3">Customers Love.</h3>
+            <p>
+              At Klothink, our customers are the heartbeat of our brand. Explore
+              the heartfelt testimonials shared by those who have experienced
+              the magic of Klothink fashion.
+            </p>
+          </div>
+          <div class="w2/5">
+            <button class="yellow-button">View All Testimonials</button>
+          </div>
+        </div>
+        <div class="bg-gray-100 px-10 mt-20 py-5 [border-radius:20px] relative">
+          <div class="flex flex-wrap justify-between items-center py-12">
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-6">
+                <img src="./assets/img/Sub Container.png" alt="" />
+                <img src="./assets/img/Icon.png" alt="" />
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-6">
+                <img src="./assets/img/Sub Container.png" alt="" />
+                <img src="./assets/img/Icon.png" alt="" />
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+            <div
+              class="block-flex bg-white border-solid-1px py-5 [border-radius:20px] justify-center text-center px-10 [width:450px]"
+            >
+              <div class="flex justify-center items-center gap-3 pb-6">
+                <img src="./assets/img/Sub Container.png" alt="" />
+                <img src="./assets/img/Icon.png" alt="" />
+              </div>
+              <p>
+                Every garment at Klothink is crafted with passion, reflecting
+                our commitment to quality and innovation.
+              </p>
+            </div>
+          </div>
+          <button class="absolute top-40 [left:-25px]">
+            <img src="./assets/img/Left Arrow Button.png" alt="" />
+          </button>
+          <button class="absolute top-40 [right:-25px]">
+            <img src="./assets/img/Right Arrow Button.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="container mx-auto">
+        <div class="w-3/5">
+          <h3 class="[font-size:60px] uppercase mb-3">Discover Fashion.</h3>
+          <p>
+            Dive into a world of fashion innovation at Klothink. Our carefully
+            curated collections bring together the latest trends and timeless
+            classics, ensuring you find the perfect pieces for every occasion.
+          </p>
+        </div>
+
+        <div>
+          <ul class="uppercase flex gap-4 py-20">
+            <li><a href="" class="font-black">all</a></li>
+            <li><a href="">ordering</a></li>
+            <li><a href="">shipping</a></li>
+            <li><a href="">returns</a></li>
+            <li><a href="">customer support</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-wrap justify-between items-center mb-12">
+          <div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+          </div>
+          <div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+          </div>
+          <div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between p-10 [border-radius:20px] bg-slate-100 mb-3"
+            >
+              <p class="font-bold">Can I modify my order after placing it?</p>
+              <button>
+                <img src="./assets/img/icons/Icon.png" width="24px" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 
